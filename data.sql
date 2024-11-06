@@ -19,7 +19,8 @@ CREATE TABLE public.produit
     prix integer,
     quantite_dispo integer,
     description character varying(50),
-    id_produit serial,
+    id_produit serial, 
+    toto CHARACTER VARCHAR(12)
     photo_produit character varying(50),
     PRIMARY KEY (id_produit)
 );
